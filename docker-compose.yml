@@ -44,7 +44,7 @@ services:
 
   postgres:
     container_name: postgres
-    image: 'postgres:16-alpine'
+    image: 'postgres:17-alpine'
     networks:
       - birthdayy
     ports:
