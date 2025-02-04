@@ -40,7 +40,7 @@
 	},
 	"dependencies": {
 		"@influxdata/influxdb-client": "^1.35.0",
-		"@prisma/client": "^5.22.0",
+		"@prisma/client": "^6.3.1",
 		"@sapphire/async-queue": "^1.5.5",
 		"@sapphire/decorators": "^6.1.1",
 		"@sapphire/discord.js-utilities": "^7.3.2",
@@ -83,7 +83,7 @@
 		"eslint-plugin-prettier": "^5.2.3",
 		"lint-staged": "^15.2.10",
 		"prettier": "^3.4.2",
-		"prisma": "^5.19.1",
+		"prisma": "^6.3.1",
 		"tsc-watch": "^6.3.0",
 		"typescript": "^5.7.3"
 	},
