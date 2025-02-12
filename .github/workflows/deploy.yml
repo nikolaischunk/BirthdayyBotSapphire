@@ -56,7 +56,7 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN || github.token }}
 
       - name: Run on VPS
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
