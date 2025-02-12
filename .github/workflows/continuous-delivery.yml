@@ -70,7 +70,7 @@ jobs:
 
       - name: Build and push Docker image
         if: github.event.inputs.publish == 'true' || github.event_name == 'push'
-        uses: docker/build-push-action@v6.7.0
+        uses: docker/build-push-action@v6.13.0
         id: docker_build_push
         with:
           context: .
